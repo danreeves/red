@@ -77,7 +77,6 @@ public class IKScriptCompanion : MonoBehaviour {
                 animator.SetLookAtWeight(0);
             }
 
-            Debug.Log(distance);
             if (distance < 2.0f & ikActive) {
                 navAgent.stoppingDistance = 0.8f;
                 navAgent.speed = 1.2f;
