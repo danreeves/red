@@ -79,7 +79,7 @@ public class IKScriptCompanion : MonoBehaviour {
 
             if (distance < 2.0f & ikActive) {
                 navAgent.stoppingDistance = 0.8f;
-                navAgent.speed = 1.2f;
+                navAgent.speed = 1.0f;
             } else {
                 navAgent.stoppingDistance = 999.0f;
                 navAgent.speed = 0.8f;
